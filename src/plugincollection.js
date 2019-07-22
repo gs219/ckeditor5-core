@@ -334,6 +334,8 @@ export default class PluginCollection {
 		this._plugins.set( PluginConstructor, plugin );
 
 		const pluginName = PluginConstructor.pluginName;
+		console.log('plugin name', pluginName);
+
 
 		if ( !pluginName ) {
 			return;
